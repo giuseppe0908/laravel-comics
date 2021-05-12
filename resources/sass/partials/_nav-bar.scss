@@ -1,0 +1,45 @@
+
+  nav{
+    .top-nav{
+      background-color: cyan;
+      .container{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 0;
+        ul{
+          li a{
+            color: white;
+          }
+        }
+      }
+
+    }
+    .nav-bar{
+      height: 80px;
+
+      img{
+        width: 60px;
+      }
+      ul{
+        li{
+          display: flex;
+          align-items: center;
+          a{
+            color: black;
+          }
+        }
+
+      }
+    }
+    ul{
+      display: flex;
+      text-transform: uppercase;
+      list-style: none;
+      li{
+        margin: 15px;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }

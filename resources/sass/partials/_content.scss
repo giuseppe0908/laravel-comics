@@ -1,0 +1,19 @@
+main{
+  padding-top: 50px;
+  background-color: gray;
+  .contenitore{
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: calc(100% /5 - 40px);
+      margin:0 10px;
+      img{
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+
+}
