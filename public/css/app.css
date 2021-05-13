@@ -13,31 +13,23 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
 header .jumbo {
   height: 320px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
-  position: relative;
-}
-header .jumbo .rettangolo {
-  position: absolute;
-  bottom: -20px;
-  left: 205px;
-  height: 50px;
-  width: 200px;
-  background-color: blue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-header .jumbo .rettangolo p {
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 nav .top-nav {
-  background-color: cyan;
+  background-color: #0582F9;
 }
 nav .top-nav .container {
   display: flex;
@@ -68,22 +60,203 @@ nav ul {
 nav ul li {
   margin: 15px;
 }
-nav ul li a {
-  text-decoration: none;
-}
 
-main {
+#home {
   padding-top: 50px;
-  background-color: gray;
+  background-color: #1C1C1C;
 }
-main .contenitore .card {
+#home .rettangolo {
+  margin-left: 187px;
+  margin-top: -76px;
+  height: 50px;
+  width: 200px;
+  background-color: #0582F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#home .rettangolo p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#home .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#home .container .card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: calc(100% /5 - 40px);
+  width: calc(100% /6 - 20px);
   margin: 0 10px;
 }
-main .contenitore .card img {
+#home .container .card .image {
   height: 150px;
   width: 150px;
+  overflow: hidden;
+}
+#home .container .load {
+  background-color: #0582F9;
+  height: 28px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+#home .container .load a {
+  color: white;
+}
+#home .banner-info {
+  background-color: #0582F9;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+#home .banner-info .container ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+}
+#home .banner-info .container ul li img {
+  width: 40px;
+  margin-right: 10px;
+}
+#home .banner-info .container ul li img#local {
+  width: 30px;
+}
+
+#single {
+  position: relative;
+}
+#single .img {
+  position: absolute;
+  top: -179px;
+  left: 351px;
+}
+#single .bg-blue {
+  background-color: #0582F9;
+  height: 50px;
+}
+#single .container {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#single .container .text {
+  margin-top: 100px;
+}
+#single .container .text .prezzo {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+#single .container .copertina {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#single .container .copertina P {
+  padding-left: 63px;
+}
+#single .container .copertina img {
+  width: 200px;
+  height: 200px;
+}
+
+footer .jumbo-footer {
+  background-image: url("../images/footer-bg.jpg");
+  height: 400px;
+}
+footer .jumbo-footer .flex {
+  display: flex;
+  padding-top: 30px;
+}
+footer .jumbo-footer .flex ul {
+  margin: 0 10px;
+}
+footer .jumbo-footer .flex ul li {
+  margin: 5px 0;
+}
+footer .jumbo-footer .flex-end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -403px;
+}
+footer .jumbo-footer .flex-end img {
+  width: 500px;
+}
+footer .jumbo-footer .flex-end .taglio {
+  overflow: hidden;
+  height: 438px;
+}
+footer .jumbo-footer .footer {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+footer .jumbo-footer .footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .jumbo-footer .footer .container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .jumbo-footer .footer .container .btn .button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #0582F9;
+}
+footer .jumbo-footer .footer .container .btn .button p {
+  color: white;
+  font-size: 16px;
+}
+footer .jumbo-footer .footer .container .links {
+  display: flex;
+  align-items: center;
+}
+footer .jumbo-footer .footer .container .links ul {
+  display: flex;
+  align-items: center;
+}
+footer .jumbo-footer .footer .container .links ul li {
+  margin: 0 10px;
+}
+footer .jumbo-footer .footer .container .links ul li a {
+  color: #0582F9;
+  font-size: 16px;
+}
+footer .jumbo-footer .footer .container .links ul li .circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .jumbo-footer ul {
+  display: block;
+}
+footer .jumbo-footer ul li a {
+  color: gray;
+  font-size: 10px;
+}
+footer .jumbo-footer ul li:first-child {
+  color: white;
+  font-weight: bold;
+}
+footer .jumbo-footer p {
+  color: gray;
+  margin-top: 20px;
+  font-size: 10px;
+  width: 482px;
 }

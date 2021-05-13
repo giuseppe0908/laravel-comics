@@ -29,9 +29,7 @@
     </div>
   </nav>
   <div class="jumbo">
-      <div class="rettangolo">
-        <p>CURRENT SERIES</p>
-      </div>
+      
 
   </div>
 </header>

@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 //     return view('home');
 // });
 Route::get('/', function () {
-   $database = config('comics');
-    return view('home',array('fumetti'=>$database));
+   // $database = config('comics');
+    // return view('home',array('fumetti'=>$database));
+    return view('home')->with('comics',config('comics'));
 });
+Route::get('/single/{id}', function ($id) {
+    $comics = config('comics');
+    return view('single')->with('comic',$comics[$id]);
+})->name('singola');

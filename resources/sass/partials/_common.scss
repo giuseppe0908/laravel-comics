@@ -1,9 +1,14 @@
 .container{
   width: 75%;
   margin: 0 auto;
-
 }
-
+ul{
+  list-style: none;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
 // [class*="col-"]{
 //   float: left;
 //   // padding: 0 15px;

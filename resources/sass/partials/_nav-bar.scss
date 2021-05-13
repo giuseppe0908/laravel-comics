@@ -1,7 +1,7 @@
 
   nav{
     .top-nav{
-      background-color: cyan;
+      background-color: #0582F9;
       .container{
         display: flex;
         justify-content: flex-end;
@@ -37,9 +37,7 @@
       list-style: none;
       li{
         margin: 15px;
-        a{
-          text-decoration: none;
-        }
       }
     }
+
   }

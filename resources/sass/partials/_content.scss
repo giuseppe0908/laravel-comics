@@ -1,19 +1,117 @@
-main{
+#home{
   padding-top: 50px;
-  background-color: gray;
-  .contenitore{
+  background-color: #1C1C1C;
+  .rettangolo{
+    // position: absolute;
+    // bottom: -20px;
+    // left: 205px;
+    margin-left: 187px;
+    margin-top: -76px;
+    height: 50px;
+    width: 200px;
+    background-color: #0582F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    p{
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
     .card{
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      width: calc(100% /5 - 40px);
+      width: calc(100% /6 - 20px);
       margin:0 10px;
-      img{
+      .image{
         height: 150px;
         width: 150px;
+        overflow: hidden;
+      }
+    }
+    .load{
+      background-color: #0582F9;
+      height: 28px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      a{
+        color: white;
       }
     }
   }
+  .banner-info{
+    background-color: #0582F9;
+    height: 100px;
+    display: flex;
+    align-items: center;
 
+    .container{
+
+      ul li{
+        display: flex;
+        align-items: center;
+        margin: 0 14px;
+        img{
+          width: 40px;
+          margin-right: 10px;
+          &#local{
+            width: 30px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+#single{
+  position: relative;
+  .img{
+    position: absolute;
+    top: -179px;
+    left: 351px;
+  }
+  .bg-blue{
+      background-color: #0582F9;
+      height: 50px;
+  }
+  .container{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+      .text{
+        margin-top: 100px;
+        .prezzo{
+          display: flex;
+          justify-content: space-between;
+          background-color: green;
+        }
+      }
+      .copertina{
+        margin-top: 100px;
+        margin-left: 40px;
+        P{
+          padding-left: 63px;
+        }
+        img{
+          width: 200px;
+          height: 200px;
+        }
+      }
+
+  }
 }
