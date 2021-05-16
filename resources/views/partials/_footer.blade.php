@@ -39,7 +39,7 @@
       <li><a href="#">Shop DC Collectibles</a></li>
 
     </ul>
-    <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <a href="#">noted here</a> . All rights reserved.<a href="#">Cookies Settings</a> </p>
+    <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <a class="colore" href="#">noted here</a> . All rights reserved.<a class="colore"  href="#">Cookies Settings</a> </p>
     <div class="flex-end">
       <div class="taglio">
         <img src="/images/dc-logo-bg.png" alt="logo">
@@ -48,11 +48,11 @@
   </div>
     <div class="footer">
       <div class="container">
-        <div class="btn">
+        <!-- <div class="btn"> -->
           <div class="button">
             <p>SIGN-UP-NOW!</p>
           </div>
-        </div>
+        <!-- </div> -->
         <div class="links">
           <ul>
             <li><a  href="#">FOLLOW US</a></li>

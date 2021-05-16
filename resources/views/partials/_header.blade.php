@@ -14,7 +14,7 @@
       <ul>
         <li>  <img src="/images/dc-logo.png" alt="logo"></li>
         <li><a href="#">characters</a></li>
-        <li><a href="#">comic</a></li>
+        <li class="{{ Route::currentRouteName() == 'home' ? 'active': 'c'}}"><a href="{{route('home')}}">comic</a></li>
         <li><a href="#">movies</a></li>
         <li><a href="#">tv</a></li>
         <li><a href="#">games</a></li>
@@ -22,14 +22,15 @@
         <li><a href="#">videos</a></li>
         <li><a href="#">fans</a></li>
         <li><a href="#">news</a></li>
-        <li><a href="#">shop<i class="fas fa-caret-down"></i></a></li>
+        <li><a href="#">shop<i class="fas fa-caret-down colore"></i></a></li>
+        <li><input type="text" placeholder="Search"><i class="fas fa-search"></i></li>
 
 
       </ul>
     </div>
   </nav>
   <div class="jumbo">
-      
+
 
   </div>
 </header>

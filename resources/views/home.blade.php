@@ -13,8 +13,6 @@
           <div class="image">
             <img src="{{$value['thumb']}}" alt="">
           </div>
-
-
         <div class="text">
           <p>{{$value['series']}}</p>
         </div>
